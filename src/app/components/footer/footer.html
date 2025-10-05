@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journeo Footer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #1a1a2e;
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+      margin: 10px;
+    }
+
+    .footer-section h3 {
+      color: #00adb5;
+      margin-bottom: 15px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin: 8px 0;
+    }
+
+    .footer-section ul li a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .footer-section ul li a:hover {
+      color: #00adb5;
+    }
+
+    .social-icons a {
+      margin-right: 10px;
+      display: inline-block;
+      font-size: 20px;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #00adb5;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 15px;
+      border-top: 1px solid #333;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-section">
+        <h3>Journeo</h3>
+        <p>Discover, share, and plan your journeys with ease. Build custom routes and explore the world with community-driven travel plans.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#routes">Routes</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#hello">{{title}}</a></li>
+          <li><a href="#number"></a>{{count}}</li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#help">Help Center</a></li>
+
